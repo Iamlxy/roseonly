@@ -1,0 +1,112 @@
+.container {
+    width: 1240px;
+    margin: 0px auto 0;
+
+    .series {
+        width: 1240px;
+        height: 70px;
+        line-height: 42px;
+        margin: 10px 0;
+        padding: 15px;
+        background: url(https://www.roseonly.com.cn/upload/menupic/15011570239251214.jpg) no-repeat scroll 0 0;
+        color: #fff;
+        text-align: center;
+    }
+
+    .rose_select {
+        line-height: 20px;
+        font-size: 14px;
+        color: #414141;
+        letter-spacing: 1px;
+        margin-bottom: 10px;
+        border-top: solid 1px #414141;
+        border-bottom: solid 1px #414141;
+        position: relative;
+
+        >a {
+            color: #414141;
+            display: block;
+            float: left;
+            width: 57px;
+            margin: 0 30px;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+
+            &:nth-child(1) {
+                font-weight: bold;
+                border-bottom: solid 9px #414141;
+            }
+
+            &:hover {
+                font-weight: bold;
+                border-bottom: solid 9px #414141;
+            }
+        }
+
+        >input {
+            width: 200px;
+            height: 29px;
+            margin: 5px 10px;
+            display: inline-block;
+            border: solid 1px #b3b3b3;
+            color: #000;
+            font-size: 14px;
+            text-indent: 5px;
+            outline: none;
+        }
+    }
+
+    ul {
+        // display: block;
+        width: 1240px;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        min-height: 500px;
+
+        li {
+            width: 310px;
+            height: 415px;
+            float: left;
+            color: #000;
+            text-align: center;
+            position: relative;
+            transition: all .8s ease-in-out;
+
+            &:hover {
+                background: rgb(238, 235, 235);
+            }
+
+            .li_img {
+                width: 260px;
+                height: 260px;
+                margin: 24px auto;
+
+                img {
+                    width: 260px;
+                    height: 260px;
+                }
+            }
+
+            .f14 {
+                font-weight: bold;
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            >p {
+                line-height: 28px;
+            }
+
+            .f12 {
+                font-size: 12px;
+            }
+
+            .oprice {
+                color: #9d9d9d;
+                font-size: 12px;
+            }
+        }
+    }
+}

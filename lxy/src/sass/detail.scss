@@ -1,0 +1,217 @@
+.container {
+    width: 1240px;
+    // background: red;
+    margin: 0px auto 0;
+
+    .container_details {
+        width: 960px;
+        margin: 0 auto;
+        color: #000;
+
+        .main_jewel {
+            width: 530px;
+            overflow: hidden;
+            float: left;
+            margin-bottom: 60px;
+            margin-top: 25px;
+
+            .jewel_window {
+                width: 350px;
+                height: 350px;
+                margin: 0 auto;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    display: block;
+
+                }
+            }
+
+            .jewel_paging {
+                display: table;
+                margin: 20px auto 0px;
+
+                .fl {
+                    float: left;
+                    padding-right: 7px;
+                    padding-top: 19px;
+                }
+
+                .fr {
+                    float: right;
+                    padding-left: 3px;
+                    padding-top: 19px;
+                }
+
+                a {
+                    display: inline-block;
+                    border: solid 1px rgb(226, 221, 221);
+                    text-decoration: none;
+                    margin-right: 7px;
+                }
+            }
+        }
+
+        .details_num1_right {
+            padding-top: 65px;
+            width: 350px;
+            // height: 500px;
+            float: right;
+            margin-bottom: 30px;
+
+            .right_tit {
+                font-size: 18px;
+                line-height: 25px;
+                color: #414141;
+            }
+
+            .right_xxc {
+                font-size: 12px;
+                padding-top: 10px;
+                color: #7b7b7b;
+            }
+
+            .right_pay {
+                width: 300px;
+                font-size: 24px;
+                line-height: 45px;
+                margin: 15px 0 13px 0;
+                padding: 5px 0;
+                border-top: solid 1px #b3b3b3;
+                border-bottom: solid 1px #b3b3b3;
+                position: relative;
+                padding-left: 40px;
+
+                span {
+                    font-size: 12px;
+                    position: absolute;
+                    left: 0;
+                    top: 6px;
+                }
+
+                .r_pay_discount {
+                    font-size: 14px;
+                    color: red;
+                    float: left;
+                    font-family: '宋体', 'STSong';
+                    margin-right: 10px;
+                    font-weight: bold;
+                }
+
+                .r_pay_original {
+                    font-size: 14px;
+                    // background: red;
+                    color: #838383;
+                    float: right;
+                    font-family: '宋体', 'STSong';
+                    margin-left: 5px;
+                }
+            }
+
+            .right_select {
+                height: 40px;
+                font-size: 12px;
+                padding: 10px 0;
+                line-height: 20px;
+                color: #000;
+
+                >span {
+                    line-height: 40px;
+                    display: block;
+                    float: left;
+                    margin-right: 5px;
+                }
+
+                >.color {
+                    // min-width: 100px;
+                    min-width: 45px;
+                    min-height: 45px;
+                    width: 40px;
+                    height: 40px;
+                    overflow: hidden;
+                    border: solid 2px #7e7e7e;
+
+                    // img {
+                    //      border: solid 2px #7e7e7e;
+                    // }
+
+                    
+
+                }
+                >input {
+                    // background: red;
+                    font-size: 14px;
+                    width: 40px;
+                    height: 40px;
+                    line-height: 36px;
+                    text-align: center;
+                    display: block;
+                    float: left;
+                    margin: 0;
+                    border: none;
+                    border: solid 1px #b3b3b3;
+                }
+                .right_u_d {
+                    width: 20px;
+                    float: left;
+
+                    .right_up {
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                        border: #b3b3b3 1px solid;
+                        border-left: none;
+                        background: url(https://www.roseonly.com.cn/upload/syspic_new/14779937575919575.svg) 1px -2px;
+                        background-size: 90% auto;
+                    }
+
+                    .right_down {
+                        display: block;
+                        width: 20px;
+                        height: 20px;
+                        cursor: pointer;
+                        border-right: 1px solid #b3b3b3;
+                        border-bottom: 1px solid #b3b3b3;
+                        background: url(https://www.roseonly.com.cn/upload/syspic_new/14779937726038870.svg) 1px -1px;
+                        background-size: 90% auto;
+                    }
+                }
+
+            }
+            >div .button_bar1 {
+               
+                width: 160px;
+                line-height: 38px;
+                font-size: 14px;
+                display: inline-block;
+                margin: 15px 5px 15px 0;
+                text-decoration: none;
+                text-align: center;
+                background: #414141;
+                color: #fff;
+                border: 1px solid #414141;
+            }
+
+            >div .button_bar2 {
+                
+                width: 160px;
+                line-height: 38px;
+                font-size: 14px;
+                display: inline-block;
+                margin: 15px 0px;
+                text-decoration: none;
+                text-align: center;
+                color: #000000;
+                border: 1px solid #414141;
+            }
+
+            .fwcn_txt {
+                font-size: 12px;
+                padding-top: 10px;
+            }
+        }
+    }
+}

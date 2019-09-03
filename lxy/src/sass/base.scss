@@ -1,0 +1,681 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+ul,
+ol,
+li,
+img {
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: 500;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+// 网页头部
+.header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    top: 0;
+    left: 0;
+    font-size: 12px;
+    z-index: 9999;
+    background: #414141;
+
+    >.head {
+        width: 100%;
+        height: 40px;
+        margin: 0 auto;
+        position: relative;
+        background: #414141;
+
+        >.right {
+            font-size: 12px;
+            float: right;
+            // margin-top: 40px;
+            // position: absolute;
+            // right: 0px;
+            // bottom: 0px;
+            width: 117px;
+            height: 40px;
+
+            >div {
+                float: left;
+
+                .yonghu11 {
+                    height: 40px;
+                }
+            }
+
+            >div>li {
+                display: block;
+                height: 20px;
+                line-height: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-right: 1px solid #fff;
+                padding-left: 7px;
+                padding-right: 7px;
+                float: left;
+                cursor: pointer;
+                // padding-top: 12px;
+                &.right_dlzc {
+                    position: relative;
+
+                    .h_dlzc {
+                        width: 13px;
+                        height: 16px;
+
+                    }
+
+                    .header_toplogin_con {
+                        width: 300px;
+                        height: 170px;
+                        margin-top: 10px;
+                        display: none;
+                        position: absolute;
+                        z-index: 2;
+                        right: -77px;
+                        top: 20px;
+                        background: #fff;
+                        border: 1px solid #eee;
+                        box-sizing: border-box;
+
+                        .header_toplogin {
+                            height: 160px;
+                            background: #ffffff;
+
+                            .header_dlzc {
+                                height: 40px;
+                                line-height: 40px;
+                                width: 95px;
+                                margin: 0 auto;
+                                text-align: center;
+
+                                a {
+                                    .h_font {
+                                        color: #414141;
+                                    }
+                                }
+
+                                .h_line {
+                                    padding: 0 6px 0 6px;
+                                    color: #414141;
+                                }
+                            }
+
+                            .top_ewm {
+                                margin: 0 auto;
+                                padding: 0;
+                                width: 268px;
+                                border-top: 1px solid #d8d8d8;
+
+                                dt {
+                                    width: 88px;
+                                    height: 88px;
+                                    float: left;
+                                    margin-top: 15px;
+                                    margin-right: 15px;
+                                    background: url(https://www.roseonly.com.cn/upload/syspic_new/15554856333871976.jpg) no-repeat;
+                                    background-size: 100%;
+                                }
+
+                                dd {
+                                    float: left;
+                                    margin: 0;
+
+                                    h1 {
+                                        font-size: 14px;
+                                        font-weight: bold;
+                                        height: 35px;
+                                    }
+
+                                    p {
+                                        font-size: 12px;
+                                        line-height: 22px;
+                                        margin: 0;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        >.div_lang {
+            margin-left: 20px;
+            float: left;
+            width: 95px;
+            height: 40px;
+            line-height: 33px;
+            font-size: 13px;
+            color: #414141;
+            position: relative;
+            cursor: pointer;
+            background: url(https://www.roseonly.com.cn/upload/syspic_new/15324244817248776.png) no-repeat;
+            background-size: auto 30%;
+            background-position-x: 10px;
+            background-position-y: 14px;
+            z-index: 1;
+
+            >label {
+                display: block;
+                cursor: pointer;
+                padding-left: 61px;
+                height: 40px;
+                color: #afafaf;
+                line-height: 40px;
+                background: url(https://www.roseonly.com.cn/upload/syspic_new/15524576264782456.png) no-repeat;
+                background-size: 18px;
+                background-position: 34px 11px;
+
+
+            }
+
+            >ul {
+                display: none;
+                position: absolute;
+                left: 0;
+                top: 35px;
+                z-index: 1;
+                width: 94px;
+                box-sizing: border-box;
+                background-color: #565656;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+
+                li {
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: left;
+
+                    &.hk {
+                        background: url(https://www.roseonly.com.cn/upload/syspic_new/15524576264685203.png) no-repeat;
+                        background-size: 20px;
+                        background-position: 20px 10px;
+                    }
+
+                    &.cn {
+                        background: url(https://www.roseonly.com.cn/upload/syspic_new/15524576264782456.png) no-repeat;
+                        background-size: 20px;
+                        background-position: 20px 10px;
+                    }
+
+                    a {
+                        display: block;
+                        color: #fff;
+                        font-size: 14px;
+                        padding-left: 50px;
+                        box-sizing: border-box;
+                    }
+                }
+            }
+        }
+
+        >a {
+            >img {
+                height: 40px;
+                overflow: hidden;
+                float: left;
+            }
+
+            &.roseonly2 img:hover {
+                background: rgb(231, 220, 222);
+            }
+
+            &.roseonly3 img:hover {
+                background: #fff;
+            }
+        }
+    }
+}
+
+// 主页logo部分
+.roseonly-log {
+    height: 80px;
+    background: #414141;
+    line-height: 80px;
+    text-align: center;
+    img {
+        height: 57px;
+        margin-top: 10px;
+    }
+}
+
+// 导航部分
+// .fixDiv{
+//     position:fixed;
+//     background: #414141;
+//      top:0;
+//      left:0;
+//  }
+.fixDiv {
+    position: fixed;
+    width: 100%;
+    background: #414141;
+    top: 0;
+    z-index: 666;
+}
+
+.nav-container {
+    position: relative;
+    background: #414141;
+    width: 100%;
+    min-width: 1240px;
+
+    .nav-bar {
+        font-size: 14px;
+        width: 100%;
+
+        .nav {
+            display: table;
+            padding: 0;
+            margin: 0 auto;
+
+            >li {
+                float: left;
+                width: 70px;
+                margin: 0 24px;
+                text-align: center;
+                line-height: 40px;
+
+                >a {
+                    position: relative;
+                    outline: none;
+                    color: #fff;
+                    text-decoration: none;
+                    letter-spacing: 1px;
+                    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+                    text-align: center;
+                    display: block;
+                    height: 40px;
+                    line-height: 40px;
+                    font-size: 14px;
+                }
+
+                .menus2 {
+                    width: 100%;
+                    font-size: 14px;
+                    background: #fff;
+                    position: absolute;
+                    top: 40px;
+                    left: 0;
+                    display: none;
+                    z-index: 999;
+                    border-bottom: 3px solid #414141;
+                    min-height: 320px;
+
+                    .menus {
+                        width: 100%;
+                        min-height: 320px;
+                        margin: 0 auto;
+                        position: relative;
+
+                        .number1 {
+                            margin-top: 25px;
+                            float: left;
+                            text-align: left;
+                            padding: 0 65px;
+                            border-left: 1px solid #414141;
+
+                            >span {
+                                display: block;
+                                margin: 0;
+                                padding: 0;
+                                color: #000;
+                                padding-bottom: 16px;
+                                position: relative;
+                            }
+
+                            >a {
+                                color: #fff;
+
+                                >span {
+                                    display: block;
+                                    line-height: 1;
+                                    margin: 0;
+                                    padding: 0;
+                                    color: #000;
+                                    padding-bottom: 16px;
+                                    position: relative;
+                                }
+                            }
+                        }
+
+                        .menus_pic {
+                            width: 605px;
+                            height: 250px;
+                            background: #d1d1d1;
+                            right: 0;
+                            top: 25px;
+                            position: absolute;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+}
+
+// 网页尾部
+.footer {
+    width: 100%;
+    clear: both;
+    background: #414141;
+    min-width: 1240px;
+    color: #fff;
+
+    .footer_box {
+        position: relative;
+        width: 1240px;
+        margin: 0 auto;
+        height: 160px;
+        padding-top: 50px;
+
+        >ul {
+            margin-top: 0;
+            float: left;
+            padding: 0 66px;
+            text-align: center;
+
+            >p {
+                margin-bottom: 20px;
+                font-size: 14px;
+                margin-top: 0;
+            }
+
+            >li {
+                list-style: none;
+                line-height: 30px;
+                color: #000;
+                text-align: left;
+                margin-left: 1px;
+
+                >a {
+                    color: #afafaf;
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .new_r {
+            float: right;
+
+            dt {
+                float: left;
+                margin-right: 25px;
+                width: 102px;
+                height: 101px;
+                background: url(https://www.roseonly.com.cn/upload/syspic_new/15554856333871976.jpg);
+                background-size: 100%;
+            }
+
+            dd {
+                float: left;
+                color: #afafaf;
+                font-size: 12px;
+                line-height: 22px;
+
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+
+                h2 {
+                    font-size: 16px;
+                }
+
+                div {
+                    padding-top: 11px;
+                }
+            }
+        }
+
+        .footer-yyzz {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 240px;
+            font-size: 12px;
+            text-align: right;
+
+            a {
+                margin-left: 15px;
+                padding-left: 15px;
+                background: url(https://www.roseonly.com.cn/upload/syspic_new/15460781628475043.png) no-repeat left center;
+                background-size: auto 80%;
+                font-size: 12px;
+                color: #afafaf;
+            }
+        }
+    }
+
+    .foot-nav {
+        width: 1240px;
+        height: 58px;
+        font-size: 14px;
+        background: #414141;
+        color: #afafaf;
+        clear: both;
+        text-align: right;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+}
+
+// 回到底部
+#back-to-top {
+    width: 45px;
+    height: 45px;
+    background: #969696;
+    position: fixed;
+    bottom: 45px;
+    right: 5px;
+    border-radius: 8px;
+
+    .go_top {
+        text-decoration: none;
+        display: block;
+        height: 45px;
+        background: #969696;
+        border-radius: 5px;
+        line-height: 65px;
+        padding-left: 2px;
+
+        &:hover {
+            background: #414141;
+        }
+
+        img {
+            width: 37px;
+            padding-top: 5px;
+        }
+    }
+}
+
+// 客服热线
+#zhichiBtnBox {
+    position: fixed;
+    z-index: 999;
+    box-sizing: content-box;
+    height: 45px;
+    bottom: 100px;
+    width: 45px;
+    right: 5px;
+    transition: all 0.3s ease-in-out 0.1s;
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+    background: #969696;
+    border-radius: 5px;
+
+    #zhichiBtn {
+        text-decoration: none;
+        outline: none;
+        font-family: Microsoft Yahei, Arial, Helvetica;
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        border: none;
+        float: none;
+
+        img {
+            vertical-align: middle;
+            border: none;
+            float: none;
+            position: static;
+            margin-left: 0px;
+            width: 42px;
+            height: 45px;
+        }
+    }
+
+    .mes_content {
+        width: 115px;
+        height: 120px;
+        position: fixed;
+        bottom: 55px;
+        right: 50px;
+        display: none;
+
+        .mes_icon {
+            width: 102px;
+            height: 110px;
+            position: relative;
+            background: #fff;
+            border: 1px solid #dcdcdc;
+            border-radius: 5px;
+
+            >div {
+                text-align: center;
+                font-size: 12px;
+
+                &.tel_sj {
+                    position: absolute;
+                    right: -9px;
+                    top: 45px;
+
+                    >.tel_txt {
+                        color: #8d8d8d;
+                        font-size: 12px;
+                        background: url(https://www.roseonly.com.cn/upload/syspic_new/14769597664198841.svg)no-repeat -16px -9px;
+                        background-size: 66px;
+                        line-height: 25px;
+                        margin: 0;
+                        margin-top: 8px;
+                        padding-left: 11px;
+                        letter-spacing: 1px;
+                    }
+
+                    >.tel_phone {
+                        color: #414141;
+                        font-size: 12px;
+                        margin: 0;
+                    }
+                }
+
+                &.tel_line {
+                    width: 86px;
+                    border-top: 1px solid #dfdfdf;
+                    margin: 0 auto;
+                    margin-top: 12px;
+                }
+
+                &.zxkf_txt {
+                    background: #969696;
+                    width: 86px;
+                    height: 28px;
+                    color: #fff;
+                    line-height: 28px;
+                    border-radius: 3px;
+                    margin: 0 auto;
+                    margin-top: 8px;
+                    font-size: 12px;
+                    display: block;
+                    text-align: center;
+                    letter-spacing: 1px;
+
+                    >a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 点击出现二维码
+#ewmBox {
+    position: fixed;
+    z-index: 999;
+    box-sizing: content-box;
+    height: 45px;
+    bottom: 155px;
+    width: 45px;
+    right: 5px;
+    transition: all 0.3s ease-in-out 0.1s;
+    -webkit-transition: all 0.3s ease-in-out 0.1s;
+    background: #969696;
+    border-radius: 5px;
+
+    >#ewm {
+        text-decoration: none;
+        outline: none;
+        font-family: Microsoft Yahei, Arial, Helvetica;
+        color: #fff;
+        font-size: 16px;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        border: none;
+        float: none;
+
+        img {
+            vertical-align: middle;
+            border: none;
+            float: none;
+            position: static;
+            margin-left: 5px;
+            width: 35px;
+            height: 45px;
+        }
+    }
+
+    .ewm_content {
+        width: 140px;
+        height: 206px;
+        position: fixed;
+        bottom: 41px;
+        right: 57px;
+        display: none;
+        background: url(https://www.roseonly.com.cn/upload/syspic_new/15555560350546942.png);
+    }
+}

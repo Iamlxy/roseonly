@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>roseonly购物车页面</title>
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/cart.css">
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="head">
+            <!-- 头部的左边 -->
+            <div class="div_lang">
+                <label for="">CN</label>
+                <ul style="display: none" class="select">
+                    <li class="hk"><a href="">HK</a></li>
+                    <li class="cn"><a href="">CN</a></li>
+                </ul>
+            </div>
+            <a href="" class="roseonly1"><img src="https://www.roseonly.com.cn/upload/syspic_new/14847113495204195.svg"
+                    alt=""></a>
+            <a href="" class="roseonly2">
+                <img src="https://www.roseonly.com.cn/upload/syspic_new/15324224079333527.svg" alt="">
+                <div class="line"></div>
+            </a>
+            <a href="" class="roseonly3">
+                <img src="https://www.roseonly.com.cn/upload/syspic_new/15324227380097689.svg" alt="">
+            </a>
+
+            <!-- 头部的右边 -->
+            <ul class="right">
+                <div class="yonghu11">
+                    <li class="right_dlzc">
+                        <div class="iconfont icon-yonghu" style=" font-size: 15px;
+                    color:#fff;" class="h_dlzc"></div>
+                        <div class="header_toplogin_con">
+                            <div class="header_toplogin">
+                                <div>
+                                    <div class="header_dlzc">
+                                        <a href="./login.html" target="blank" class="unlogin" rel="nofollow">
+                                            <span id="h_font" class="h_font">登录</span>
+                                        </a>
+                                        <span class="h_line">|</span>
+                                        <a href="./signup.html" class="unlogin zc_flr " rel="nofollow">
+                                            <span id="h_font" class="h_font">注册</span>
+                                        </a>
+                                        <a style="display:none" href="https://orders.roseonly.com.cn/userOrders"
+                                            class="login">
+                                            <span class="h_font">个人中心</span>
+                                        </a>
+                                        <a style="display:none" href="javascript:void(0)" onclick="logout();"
+                                            class="login zc_flr">
+                                            <span class="h_font">退出</span>
+                                        </a>
+                                    </div>
+                                    <dl class="top_ewm">
+                                        <dt></dt>
+                                        <dd>
+                                            <h1>立即领取 50元 优惠券</h1>
+                                            <p> 微信关注roseonly诺誓商城,<br />
+                                                激活成为会员即可领取,<br />
+                                                更多会员专享活动等你参与！
+                                            </p>
+                                        </dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </div>
+                <div>
+                    <li class="iconfont icon-gouwudai101" style=" font-size: 15px;
+                color:#fff" class="cartNum">(0)</li>
+                </div>
+
+                <div>
+                    <li class="iconfont icon-xiazai19" style=" font-size: 15px;
+                color:#fff;border:none">
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <div class="roseonly-log">
+        <a href="./index.html">
+            <img src="../static/roseonly-log.svg" alt="">
+        </a>
+    </div>
+    <div class="nav-container">
+        <div class="nav-bar">
+            <ul class="nav">
+                <li>
+                    <a href="">新品上市</a>
+                </li>
+                <li>
+                    <a href="./list.html">爱礼推荐</a>
+                    <div class="menus2" style="display:none">
+                        <div class="menus">
+                            <div class="number1">
+                                <span>场合</span>
+                                <a href="">
+                                    <span>唯爱留声礼盒</span>
+                                </a>
+                                <a href="">
+                                    <span>生日</span>
+                                </a>
+                                <a href="">
+                                    <span>纪念日</span>
+                                </a>
+                                <a href="">
+                                    <span>表白</span>
+                                </a>
+                                <a href="">
+                                    <span>求婚</span>
+                                </a>
+                            </div>
+                            <div class="number1">
+                                <span>人群</span>
+                                <a href="">
+                                    <span>送给她</span>
+                                </a>
+                                <a href="">
+                                    <span>送给他</span>
+                                </a>
+                                <a href="">
+                                    <span>送母亲</span>
+                                </a>
+                                <a href="">
+                                    <span>送父亲</span>
+                                </a>
+
+                            </div>
+                            <div class="number1">
+                                <span>品类</span>
+                                <a href="">
+                                    <span>玫瑰礼盒</span>
+                                </a>
+                                <a href="">
+                                    <span>鲜花玫瑰</span>
+                                </a>
+                                <a href="">
+                                    <span>永生玫瑰</span>
+                                </a>
+                                <a href="">
+                                    <span>玫瑰珠宝</span>
+                                </a>
+                                <a href="">
+                                    <span>玫瑰饰品</span>
+                                </a>
+                                <a href="">
+                                    <span>玫瑰香氛</span>
+                                </a>
+                                <a href="">
+                                    <span>玫瑰礼品</span>
+                                </a>
+                            </div>
+                            <a href="" class="menus_pic">
+                                <img src="https://www.roseonly.com.cn/upload/menupic/15523830860408942.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="./list.html">鲜花玫瑰</a></li>
+                <li><a href="./list.html">永生玫瑰</a></li>
+                <li><a href="./list.html">玫瑰珠宝</a></li>
+                <li><a href="./list.html">玫瑰饰品</a></li>
+                <li><a href="./list.html">玫瑰香氛</a></li>
+                <li><a href="./list.html">高端定制</a></li>
+                <li><a href="./list.html">诺誓世界</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!--内容部分开始-->
+    <div class="container">
+
+        <!-- <div class="order" id="efg">
+            <div class="shopping">
+                <div class="shop-a">
+                    <div class="shop-left" style="width:800px">我的购物车</div>
+                    <a href="javascript:void(0);" class="shop-right" id="cart_del_all">清空购物车</a>
+                </div>
+                <table class="shopping_cart" border="0" cellspacing="0" cellpadding="0" data-shopid="0">
+                    <tr class="shopping_cart_title">
+                        <td width="40">&nbsp;</td>
+                        <td width="110">品牌</td>
+                        <td width="490">商品名称</td>
+                        <td width="120">单价</td>
+                        <td width="13"></td>
+                        <td width="60">数量</td>
+                        <td width="13"></td>
+                        <td>操作</td>
+                    </tr>
+                    <tr height="120" class="wg_cart_list">
+                        <td><input type="checkbox" name="ck_carno" data-num="3" id="ck_carno5128" value="5128"
+                                checked="checked" /> </td>
+                        <td>
+                            roseonly</td>
+                        <td>
+                            <img src="https://www.roseonly.com.cn/upload/products/15531615023403700.png"
+                                class="shopping_cart_img" alt="产品图" style="cursor:pointer;"
+                                onclick="window.open('http://www.roseonly.com.cn/item/5128.html')" />
+                            <div class="shopping_cart_name">
+                                <label for="ck_carno5128">
+                                    玫瑰公仔-项圈狗手链与甜心狗</label>
+                            </div>
+                        </td>
+                        <td class="td_price_5128">&yen;1999.0</td>
+                        <td>
+                            <a href="">-</a>
+                        </td>
+                        <td>
+                            <input type="text" value="3" id="" maxlength="4" data-num="4"
+                                class="shopping_cart_sl" />
+                        </td>
+                        <td align="right">+</td>
+                        <td><a href="" class="cart_del" style="text-decoration: none;">删除</a></td>
+                    </tr>
+                </table>
+                <div class="sel_all">
+                    <input type="checkbox" id="ck_all" checked="checked" />
+                    <label for="ck_all">全选</label>
+                </div>
+                <div class="cart_total">合计：&yen;<font id="cart_total">5997.0</font>
+                    <input type="button" class="cart_button1" value="去结算" id="cart_pay" />
+                </div>
+            </div>
+            <div class="clear" style="clear: both"></div>
+            <div class="help-right">
+                <div class="help-nav">订单帮助</div>
+                <p>热线电话：400-1314-520</p>
+                <p>客服邮箱：<a href="mailto:service@roseonly.com">service@roseonly.com</a>&nbsp;&nbsp;客服工作时间：周一至周日9:00-21:00
+                </p>
+                <p>如果您在下单过程中遇到问题，请与我们联系。因为鲜花商品对配送时效有特殊要求，订购后请随时登录查询物流状态。</p>
+            </div>
+        </div> -->
+
+    </div>
+    <!-- 网页的尾部 -->
+    <div class="footer">
+        <div class="footer_box">
+            <ul>
+                <p>新手指南</p>
+                <li><a href="" target="_blank">购物流程</a></li>
+                <li><a href="" target="_blank">会员尊享</a></li>
+                <li><a href="" target="_blank">常见问题</a></li>
+                <li><a href="" target="_blank">指圈测量</a></li>
+            </ul>
+            <ul>
+                <p>物流配送</p>
+                <li><a href="" target="_blank">配送方式</a></li>
+                <li><a href="" target="_blank">配送服务</a></li>
+            </ul>
+            <ul>
+                <p>售后服务</p>
+                <li><a href="" target="_blank">退款说明</a></li>
+                <li><a href="" target="_blank">保养物语</a></li>
+            </ul>
+            <ul>
+                <p>关于我们</p>
+                <li><a href="" target="_blank">品牌介绍</a></li>
+                <li><a href="" target="_blank">销售渠道</a></li>
+                <li><a href="" target="_blank">联系我们</a></li>
+                <li><a href="" target="_blank">加入我们</a></li>
+            </ul>
+            <ul>
+                <p>关注我们</p>
+                <li class="f_weixin"><a href="" target="_blank">微信</a></li>
+                <li class="f_weibo"><a href="" target="_blank">微博</a></li>
+            </ul>
+            <dl class="new_r">
+                <dt></dt>
+                <dd>
+                    <p>微信关注roseonly <br />激活会员，立即领取</p>
+                    <h2>50元优惠券</h2>
+                    <div></div>
+                </dd>
+            </dl>
+            <div class="footer-yyzz"">
+                <a href=" https://www.roseonly.com.cn/upload/syspic_new/15460694044488361.jpg" target="_blank">营业执照</a>
+                <a href="https://www.roseonly.com.cn/upload/syspic_new/15460768132621912.jpg" target="_blank">食品证副本</a>
+            </div>
+        </div>
+        <div class="foot-nav">
+            京ICP备13007738号 京公网安备11010502023922<br />诺誓（北京）商业股份有限公司
+        </div>
+    </div>
+    <!-- 回到顶部 -->
+    <div id="back-to-top">
+        <a class="go_top" href="javascript:;"><img
+                src="https://www.roseonly.com.cn/upload/syspic_new/14703637041003761.svg" />
+        </a>
+    </div>
+
+    <!--客服开始-->
+    <div id="zhichiBtnBox">
+        <a id="zhichiBtn" href="javascript:;" target="_blank">
+            <img src="https://www.roseonly.com.cn/upload/syspic_new/14703636967439422.svg">
+        </a>
+        <div class="mes_content">
+            <div class="mes_icon">
+                <div class="tel_sj"><img src="https://www.roseonly.com.cn/upload/syspic_new/14769441969842358.png"
+                        alt="">
+                </div>
+                <div class="tel_icon">
+                    <p class="tel_txt">联系电话</p>
+                    <p class="tel_phone">400-1314-520</p>
+                </div>
+                <div class="tel_line"></div>
+                <div class="zxkf_txt">
+                    <a id="btn_onlineZhichi" href="">在线客服</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--二维码开始-->
+    <div id="ewmBox">
+        <a id="ewm" href="javascript:;" target="_blank">
+            <img src="https://www.roseonly.com.cn/upload/syspic_new/14945591270622918.svg">
+        </a>
+        <div class="ewm_content"></div>
+    </div>
+    <script src="../lib/jquery.min.js""></script>
+    <script src=" ../js/base.js"> </script> <script src="../js/cookie.js"></script>
+    <script src="../js/utils.js"></script>
+    <script src="../js/cart.js"></script>
+</body>
+
+</html>

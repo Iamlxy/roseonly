@@ -1,0 +1,43 @@
+.register_nav {
+    >#pic {
+        display: block;
+        width: 190px;
+        // height: 45px;
+        border: 1px solid #b3b3b3;
+        border-right: none;
+        box-sizing: border-box;
+        float: left;
+        line-height: 43px;
+        padding-left: 10px;
+    }
+    >#note{
+        display: block;
+        width: 190px;
+        // height: 45px;
+        border: 1px solid #b3b3b3;
+        border-right: none;
+        box-sizing: border-box;
+        float: left;
+        line-height: 43px;
+        padding-left: 10px;
+    }
+    >div {
+        text-indent: 0;
+        width: 100px;
+        height: 45px;
+        border: 1px solid #b3b3b3;
+        box-sizing: border-box;
+        float: right;
+        line-height: 45px;
+        text-align: center;
+        background: #b3b3b3;
+        img{
+            height: 100%;
+            width:100%;
+            overflow: hidden;
+        }
+        >a{
+            color: #000;
+        }
+    }
+}

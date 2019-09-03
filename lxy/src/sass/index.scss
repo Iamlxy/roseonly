@@ -1,0 +1,27 @@
+
+// 轮播图部分
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 450px;
+        overflow: hidden;
+    }
+}
+
+// 主页的主要部分
+.brand {
+    ul {
+        li {
+            float: left;
+
+            img {
+                display: block;
+            }
+        }
+    }
+}
+
